@@ -1,0 +1,111 @@
+.container{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+    max-width: 20%;
+}
+
+nav {
+    flex-basis: 80%;
+    max-width: 80%;
+}
+
+ul {
+}
+
+nav ui li {
+    list-style-type: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.SectionOne{
+    background-image: url(../images/1.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+.SectionTwo{
+    background-image: url(../images/2.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.SectionThree{
+    background-image: url(../images/3.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.SectionFour{
+    background-image: url(../images/4.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.SectionFive{
+    background-image: url(../images/5.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+.SectionSix{
+    background-image: url(../images/6.jpg);
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+h1 {
+    font-size: 45px;
+    background: #ff214f;
+    color: white;
+    width: 425px;
+    margin: auto;
+    padding: 25px;
+}
